@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(224, 216, 233);
+}
+
+/* навбар */
+
+.container {
+    background: #20232a;
+    color: blanchedalmond;
+    max-width: 1440px;
+    height: 105px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-left {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.navbar-left__logo {
+    width: 83px;
+    height: 23px;
+    margin-left: 30px;
+}
+p {
+    color: #ffe600;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.navbar-right {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+    padding: 10px;
+}
+
+/* карусель */
+
+.carousel-item1 {
+    background: url("../img/nlp-javascript-e1554683850610.jpg") no-repeat;
+    height: 120vh;
+    background-size: cover;
+}
+.carousel-item2 {
+    background: url("../img/HTML5-CSS3.jpg") no-repeat;
+    height: 120vh;
+    background-size: cover;
+}
+.carousel-item3 {
+    background: url("../img/bootstrap.jpg") no-repeat;
+    height: 120vh;
+    background-size: cover;
+}
+.carousel-item4 {
+    background: url("../img/uses-of-jquery.jpg") no-repeat;
+    height: 120vh;
+    background-size: cover;
+}
+.carousel-item5 {
+    background: url("../img/react-js.jpg") no-repeat;
+    height: 120vh;
+    background-size: cover;
+}
+
+/* средняя часть желтая кнопка */
+
+.middle-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1440px;
+    height: 526px;
+}
+.central-part__btn {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 761px;
+    height: 210px;
+    font-size: 175px;
+    margin: 0;
+    margin-bottom: 77px;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* черные кнопки */
+
+.general {
+    /* max-width: 1440px; */
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 861px;
+    text-align: center;
+    color: #ffe600;
+}
+.general-topic {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.general-topic__item {
+    width: 300px;
+    height: 200px;
+    border-radius: 27px;
+    background: #211135;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genera-topic__link {
+    color: #ffe600;
+    font-size: large;
+}
+
+.general-topic__item:nth-child(3n) {
+    margin-right: 0;
+}
+.general-topic__item:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+}
+.general-topic__item:hover {
+    /* увеличение блока анимация */
+    transform: scale(1.1);
+    background-color: #290520;
+}
+
+/* футер */
+
+.footer {
+    max-width: 1440px;
+}
+
+.footer {
+    background-color: rgb(93, 28, 95);
+}
+.contacts {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list {
+    list-style-type: none;
+}

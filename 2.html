@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../maket cite/css/style.css" />
+    <link rel="stylesheet" href="./css/2.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="navbar-left">
+                    <img class="navbar-left__logo" src="../maket cite/img/logo-w 1.svg" alt="logo" />
+                    <p>Documentation</p>
+                </div>
+                <div class="navbar-right">
+                    <nav class="navbar navbar-expand-lg navbar-warning bg-text-dark ">
+                        <a class="navbar-brand text-warning " target="blank" href="https://makers.kg/">Главная</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link text-warning" target="blank"
+                                        href="https://bootstrap-4.ru/">Документация<span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-warning" target="blank"
+                                        href="https://github.com/olesyakostina">GitHub</a>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-5 my-lg-0">
+                                <input class="form-control mr-sm-2 text-warning" type="search" placeholder="Поиск"
+                                    aria-label="Поиск">
+                                <button class="btn btn-outline-warning my-2 my-sm-0" type="submit"> <a target="blank"
+                                        href="https://www.google.com/">Поиск</a>
+                                </button>
+                            </form>
+
+                            </ul>
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- средняя часть  карусель 1-->
+    <div class="middle">
+        <div class="container-fluid">
+            <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="10000">
+                        <img src="./img/1b.jpg" class="d-block w-100" alt="boorstrap">
+                    </div>
+                    <div class="carousel-item" data-interval="2000">
+                        <img src="./img/2b.jpg" class="d-block w-100" alt="boorstrap">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/3b.jpg" class="d-block w-100" alt="boorstrap">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Предыдущий</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Следующий</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- карточка -->
+
+    <div class="middle pt-5">
+        <div class="container-fluid">
+            <div class="chapter__text text-center text-warning pt-1 pb-4">
+                <a class="str__item" target="blank" href="https://bootstrap-4.ru/">
+                    <h3> Bootstrap </h3>
+                </a>
+            </div>
+
+
+            <div class="row row-cols-1 row-cols-md-3  g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./img/1bc.jpg" class="card-img-top" alt="html">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Отзывчивые контрольные точки</h5>
+                            <p class="card-text text-center">Поскольку Bootstrap в первую очередь разработан для
+                                мобильных
+                                устройств, мы используем несколько медиа-запросов для создания разумных контрольных
+                                точек для наших макетов и интерфейсов. Эти контрольные точки в основном основаны на
+                                минимальной ширине области просмотра и позволяют масштабировать элементы по мере
+                                изменения области просмотра.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted"> <a class="new" target="blank"
+                                    href="https://bootstrap-4.ru/docs/4.6/layout/overview/#containers">Подробнее</a>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./img/2bc.jpg" class="card-img-top" alt="html">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Строка столбцов</h5>
+                            <p class="card-text text-center">Используйте отзывчивые классы .row-cols-*, чтобы быстро
+                                установить
+                                количество столбцов, которые лучше всего отображают ваш контент и макет. В то время как
+                                нормальные классы .col-* применяются к отдельным столбцам (например, .col-md-4), классы
+                                столбцов строк устанавливаются в родительском .row как ярлык.
+                                Используйте эти классы, чтобы быстро создавать базовые макеты сеток или управлять вашими
+                                макетами.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted"><a class="new" target="blank"
+                                    href="https://bootstrap-4.ru/docs/4.6/layout/grid/#customizing-the-grid">Подробнее</a></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./img/3bc.jpg" class="card-img-top" alt="html">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Z-индекс</h5>
+                            <p class="card-text text-center">Некоторые компоненты Bootstrap используют z-index, свойство
+                                CSS, которое помогает управлять макетом, предоставляя третью ось для упорядочивания
+                                содержимого. Мы используем шкалу z-индекса по умолчанию в Bootstrap, которая была
+                                разработана для правильного разделения навигации, всплывающих и всплывающих подсказок,
+                                модальных окон и многого другого.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted"><a class="new" target="blank"
+                                    href="https://bootstrap-4.ru/docs/4.6/layout/overview/#z-index">Подробнее</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chapter__text text-center text-warning pt-4 pb-4">
+                <a class="str__item" target="blank" href="https://learn.javascript.ru/">
+                    <h3> Основы JS </h3>
+                </a>
+            </div>
+            <!-- карусель 2 -->
+            <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="10000">
+                        <img src="./img/алгоритмы.jpg" class="d-block w-100" alt="алгоритмы">
+                    </div>
+                    <div class="carousel-item" data-interval="2000">
+                        <img src="./img/метод.png" class="d-block w-100" alt="метод">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/массив.jpg" class="d-block w-100" alt="массив">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Предыдущий</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Следующий</span>
+                </a>
+            </div>
+
+
+            <!-- карточка -->
+            <div class="middle__second pt-4 pb-4">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./img/1m.jpg" class="card-img-top" alt="html">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Массив</h5>
+                                <p class="card-text text-center">Мы уже знаем методы, которые добавляют и удаляют
+                                    элементы из начала
+                                    или конца:
+
+                                    arr.push(...items) – добавляет элементы в конец,
+                                    arr.pop() – извлекает элемент из конца,
+                                    arr.shift() – извлекает элемент из начала,
+                                    arr.unshift(...items) – добавляет элементы в начало.
+                                    Есть и другие.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted"><a class="new" target="blank"
+                                        href="https://learn.javascript.ru/array-methods">Подробнее</a></small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./img/2m.jpg" class="card-img-top" alt="html">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Функции</h5>
+                                <p class="card-text text-center">Зачастую нам надо повторять одно и то же действие во
+                                    многих частях
+                                    программы.
+                                    Например, необходимо красиво вывести сообщение при приветствии посетителя, при
+                                    выходе посетителя с сайта, ещё где-нибудь.
+                                    Чтобы не повторять один и тот же код во многих местах, придуманы функции. Функции
+                                    являются основными «строительными блоками» программы.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted"><a class="new" target="blank"
+                                        href="https://learn.javascript.ru/function-basics">Подробнее</a></small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./img/3bc.jpg" class="card-img-top" alt="html">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Рекурсия и стек</h5>
+                                <p class="card-text text-center">Рекурсия – это приём программирования, полезный в
+                                    ситуациях, когда
+                                    задача может быть естественно разделена на несколько аналогичных, но более простых
+                                    задач. Или когда задача может быть упрощена до несложных действий плюс простой
+                                    вариант той же задачи. Или, как мы скоро увидим, для работы с определёнными.
+                                    структурами данных.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted"><a class="new" target="blank"
+                                        href="https://learn.javascript.ru/recursion">Подробнее</a></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer ">
+        <div class="container-fluid ">
+            <div class="footer-left d-flex justify-content-around pt-4">
+                <div class="footer-left__item">
+                    <img class="footer-left__logo" src="../maket cite/img/logo-w 1.svg" alt="logo" />
+                    <p>Community</p>
+                </div>
+
+
+                <div class="contacts d-flex justify-content-evenly">
+                    <ul class="list">
+                        <li> <strong>Наши контакты:</strong></li>
+                        <li><a target="blank" href="https://makers.kg/">makers@gmail.com </a></li>
+                        <li>г. Бишкек ул. Я.Логвиненко 12</li>
+                        <li>+ (996) 619 690</li>
+                    </ul>
+                </div>
+
+
+
+
+                <div class="cocialenet d-flex justify-content-evenly text-center">
+                    <ul class="list">
+                        <li>Мы в социальных сетях:</li>
+                        <li><a target="blank" href="https://www.facebook.com/makerskg/">
+                                <img src="./img/facebook.svg" alt="fb">
+                            </a></li>
+                        <li><a target="blank" href="https://t.me/makerskg">
+                                <img src="./img/telegram.svg" alt="tg">
+                            </a></li>
+                        <li><a target="blank" href="https://vk.com/makerskg">
+                                <img src="./img/whatsapp.svg" alt="wa">
+                            </a></li>
+                        <li><a target="blank" href="https://www.instagram.com/makerskg/">
+                                <img src="./img/instagram.svg" alt="fb">
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
