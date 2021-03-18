@@ -10,10 +10,33 @@
     max-width: 1440px;
     height: 105px;
 }
-
+p {
+    color: #ffe600;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
 body {
     background-color: rgb(224, 216, 233);
 }
 .str__item {
     color: #6c36b1;
+}
+
+/* футер */
+
+.footer {
+    max-width: 1440px;
+}
+
+.footer {
+    background-color: rgb(93, 28, 95);
+}
+.contacts {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list {
+    list-style-type: none;
 }
